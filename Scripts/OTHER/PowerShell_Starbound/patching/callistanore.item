@@ -1,0 +1,13 @@
+{
+  "itemName" : "callistanore",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "callistanore.png",
+  "description" : "It's mechanium ore.",
+  "shortdescription" : "Mechanium Ore",
+  "learnBlueprintsOnPickup" : [
+    "callistanbar"
+  ]
+  
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "calpaper",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "calpaper.png",
+  "description" : "It's a sheet of mechanium... paper?",
+  "shortdescription" : "Blessed Paper",
+  "itemTags" : [ "reagent" ],
+
+  "learnBlueprintsOnPickup" : [
+  "callistanposter",
+  "callistanposter2",
+	"callistanposter3",
+	"callistanposter4",
+	"callistanportrait1",
+	"callistanportrait2",
+	"dogbuttportrait",
+	"nocatsposter"
+	]
+}

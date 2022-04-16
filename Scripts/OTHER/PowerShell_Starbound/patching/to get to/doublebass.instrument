@@ -1,0 +1,18 @@
+{
+  "itemName" : "doublebass",
+  "inventoryIcon" : "doublebicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Smooth...",
+  "shortdescription" : "MK Double Bass Arco",
+  "largeImage" : "doublebass.png",
+  "image" : "doublebass.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "doublebass.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.4, 0.0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "doublebass"
+}

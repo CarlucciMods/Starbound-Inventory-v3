@@ -1,0 +1,18 @@
+{
+  "itemName" : "twelvey",
+  "inventoryIcon" : "twelveyicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Who needs these much strings!?",
+  "shortdescription" : "MK Twelve-y",
+  "largeImage" : "twelvey.png",
+  "image" : "twelvey.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "twelvey.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.1, 0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "twelvey"
+}

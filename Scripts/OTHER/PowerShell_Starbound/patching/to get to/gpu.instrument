@@ -1,0 +1,18 @@
+{
+  "itemName" : "gtx",
+  "inventoryIcon" : "gpuicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "The destiny of any GPU which simply ceased to function.",
+  "shortdescription" : "MK Old Graphic Card",
+  "largeImage" : "gpu.png",
+  "image" : "gpu.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "gpu.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.4, 0.0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "gtx"
+}

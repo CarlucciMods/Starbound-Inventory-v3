@@ -1,0 +1,18 @@
+{
+  "itemName" : "techpad",
+  "inventoryIcon" : "techpicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Short, precise and strong. That what she s...",
+  "shortdescription" : "MK Techno Pad",
+  "largeImage" : "techpad.png",
+  "image" : "techpad.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "techpad.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, 0.3],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "techpad"
+}

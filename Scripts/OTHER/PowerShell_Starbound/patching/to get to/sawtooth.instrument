@@ -1,0 +1,18 @@
+{
+  "itemName" : "sawtooth",
+  "inventoryIcon" : "sawtooicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "This keyboard sounds weird... But I like it!",
+  "shortdescription" : "MK Sawtooth",
+  "largeImage" : "sawtooth.png",
+  "image" : "sawtooth.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "sawtooth.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "sawtooth"
+}

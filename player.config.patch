@@ -1,0 +1,148 @@
+[
+
+[
+//CARLUCCI ACE INVENTORY 3.0
+{
+"op": "replace",
+"path": "/inventory/itemBags",
+"value": {
+"armoryBag" : { "priority" : 1, "size" : 105 },//weapons 
+"armorBag" : { "priority" : 2, "size" : 105 },//armor 
+"throwBag" : { "priority" : 3, "size" : 105 },//throwable items, breakable items 
+"toolBag" : { "priority" : 4, "size" : 105 },//tool
+"augmentsBag" : { "priority" : 5, "size" : 105 },//epp, collar and lure augments
+"medsBag" : { "priority" : 6, "size" : 105 },//medicine
+"foodBag" : { "priority" : 7, "size" : 105 },//food
+"objectBag" : { "priority" : 8, "size" : 105 },//furniture and platforms
+"materialBag" : { "priority" : 9, "size" : 105 },//building blocks 
+"liquidBag" : { "priority" : 10, "size" : 105 },//liquids 
+"farmBag" : { "priority" : 11, "size" : 105 },//seeds, saplings, gardenbots and pets
+"hobbyBag" : { "priority" : 12, "size" : 105 },//music and documents
+"vehicleBag" : { "priority" : 13, "size" : 105 },//mech, spaceship, boat and vehicle parts, anything that has to do with these items
+"reagentBag" : { "priority" : 14, "size" : 105 },//crafting materials 
+"transportBag" : { "priority" : 15, "size" : 105 },//rails and elevators, flags and teleporters 
+"objectBag2" : { "priority" : 16, "size" : 105 },//decorations 
+"lightingBag" : { "priority" : 17, "size" : 105 },//lighting 
+"moneyBag" : { "priority" : 18, "size" : 105 },//voxels and pixels
+"storageBag" : { "priority" : 19, "size" : 105 },// chests, lockers (old skool storage)
+"mainBag" : { "priority" : 20, "size" : 105 },//junk bag, other and leftovers 
+"deviceBag" : { "priority" : 21, "size" : 105 },//device stations 
+"digitalBag" : { "priority" : 22, "size" : 105 },//digital transportation and storage
+"powerBag" : { "priority" : 23, "size" : 105 }//anything that creates, gives and supplies power
+}
+},
+
+{
+
+"op": "replace",
+"path": "/inventoryFilters",
+"value": {
+"mainBag" : {"tagWhitelist" : [ "mainBag"], ]
+
+},
+"armoryBag" : {"tagWhitelist" : [ "armoryBag"], ]
+
+},
+"materialBag" : {"tagWhitelist" : [ "materialBag"], ]
+
+},
+"objectBag" : {"tagWhitelist" : [ "objectBag"], ]
+
+},
+"objectBag2" : {"tagWhitelist" : [ "objectBag2"], ]
+
+},
+"reagentBag" : {"tagWhitelist" : [ "reagentBag"], ]
+
+},
+"foodBag" : {"tagWhitelist" : [ "foodBag"], ]
+
+},
+"farmBag" : : {"tagWhitelist" : [ "farmBag"], ]
+
+},
+"hobbyBag" : {"tagWhitelist" : [ "hobbyBag"], ]
+
+},
+"vehicleBag" : {"tagWhitelist" : [ "vehicleBag"], ]
+
+},
+"toolBag" : {"tagWhitelist" : [ "toolBag"], ]
+
+},
+"liquidBag" : {"tagWhitelist" : [ "liquidBag"], ]
+
+},
+"medsBag" : {"tagWhitelist" : [ "medsBag"], ]
+
+},
+"augmentsBag" : {"tagWhitelist" : [ "augmentsBag"], ]
+
+},
+"transportBag" : {"tagWhitelist" : [ "transportBag"], ]
+
+},
+"moneyBag" : {"tagWhitelist" : [ "moneyBag"], ]
+
+},
+"throwBag" : {"tagWhitelist" : [ "throwBag"], ]
+
+},
+"armorBag" : {"tagWhitelist" : [ "armorBag"], ]
+
+},
+"lightingBag" : {"tagWhitelist" : [ "lightingBag"], ]
+
+},
+"storageBag" : {"tagWhitelist" : [ "storageBag"], ]
+
+},
+"digitalBag" : {"tagWhitelist" : [ "digitalBag"], ]
+
+},
+"deviceBag" : {"tagWhitelist" : [ "deviceBag"], ]
+
+},
+"powerBag" : {"tagWhitelist" : [ "powerBag"], ]
+
+},
+"autoAddToCustomBar" : {
+/*++++++++++++++++++++++++++++++++++++++++autoAddToCustomBar++++++++++++++++++++++++++++++++++++++++++++*/
+"typeWhitelist" : [
+"liquid","material", "object", "miningtool","flashlight","harvestingtool","tillingtool","consumable","blueprint","codex","instrument", 
+"thrownitem","unlockitem","activeitem"],
+"categoryBlacklist" : [ "food" ]
+
+
+
+
+
+
+
+
+}
+}
+}
+],
+
+[
+{
+"op" : "test",
+"path" : "/modEnvironment",
+"inverse" : true
+},
+{
+"op" : "add",
+"path" : "/modEnvironment",
+"value" : {}
+}
+],
+
+[
+{
+"op" : "add",
+"path" : "/modEnvironment/carlucci_inventory",//in case it would be useful to know
+"value" : true
+}
+]
+]

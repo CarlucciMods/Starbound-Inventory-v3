@@ -1,0 +1,18 @@
+{
+  "itemName" : "desaxtrous",
+  "inventoryIcon" : "desaxtroicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A synth which resembles a vibratto sax. Still, didn't make it",
+  "shortdescription" : "MK Desaxtrous",
+  "largeImage" : "desaxtrous.png",
+  "image" : "desaxtrous.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "desaxtrous.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "desaxtrous"
+}

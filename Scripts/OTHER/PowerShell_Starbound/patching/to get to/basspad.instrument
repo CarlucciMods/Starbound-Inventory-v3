@@ -1,0 +1,18 @@
+{
+  "itemName" : "basspad",
+  "inventoryIcon" : "basspicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Long glitchy notes make me CREEK",
+  "shortdescription" : "MK Bass Pad",
+  "largeImage" : "basspad.png",
+  "image" : "basspad.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "basspad.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, 0.3],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "basspad"
+}

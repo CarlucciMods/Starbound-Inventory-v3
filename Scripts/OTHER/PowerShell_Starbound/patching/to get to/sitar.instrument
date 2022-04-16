@@ -1,0 +1,18 @@
+{
+  "itemName" : "sitar",
+  "inventoryIcon" : "sitaricon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A little piece of India",
+  "shortdescription" : "MK Sitar",
+  "largeImage" : "sitar.png",
+  "image" : "sitar.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "sitar.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "sitar"
+}

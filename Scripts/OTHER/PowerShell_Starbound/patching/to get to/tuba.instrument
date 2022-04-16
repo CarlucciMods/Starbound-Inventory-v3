@@ -1,0 +1,18 @@
+{
+  "itemName" : "tuba",
+  "inventoryIcon" : "tubaicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Charmingly smooth",
+  "shortdescription" : "MK Tuba",
+  "largeImage" : "tuba.png",
+  "image" : "tuba.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "tuba.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.1, 0.5],
+  "handPosition" : [-0.1, 0.5],
+  "twoHanded" : true,
+  "kind" : "tuba"
+}

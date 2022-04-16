@@ -1,0 +1,22 @@
+{
+  "itemName" : "callistanbar",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "callistanbar.png",
+  "description" : "It's a bar of mechanium.",
+  "shortdescription" : "Mechanium Bar",
+  "learnBlueprintsOnPickup" : [
+    "callistanblaster",
+	"whitefanghead",
+	"whitefangpants",
+	"whitefangchest",
+	"callistanpowder",
+	"callistanbed",
+	"callistantoolbox",
+	"callistanbanner",
+	"callistanradio",
+	"calplantlight"
+  ]
+
+}

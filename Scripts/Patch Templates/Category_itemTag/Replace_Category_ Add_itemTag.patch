@@ -1,0 +1,13 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/category",
+    "value" : ""
+  },
+  {
+    "op": "add",
+    "path": "/itemTags",
+    "value": [ "" ]
+  }
+
+]

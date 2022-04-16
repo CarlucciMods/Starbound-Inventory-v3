@@ -1,0 +1,1 @@
+Get-ChildItem -Path "B:\WORKING_SB\Downloaded pak\BB" -Filter *.object -Recurse | get-content | Where-Object { $_.Contains('"category"') } | Foreach {$_.Trim()} | Foreach {$_.Replace('":', '" :')} | Foreach {$_.Replace(':"', ': "')} | Sort-Object -Unique -CaseSensitive | out-file "B:\WORKING_SB\Downloaded pak\BB\all_object_category.json"

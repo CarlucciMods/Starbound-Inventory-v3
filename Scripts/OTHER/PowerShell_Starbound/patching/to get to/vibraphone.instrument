@@ -1,0 +1,18 @@
+{
+  "itemName" : "vibraphone",
+  "inventoryIcon" : "vibraphicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Nothing like a bell-ringing piano.",
+  "shortdescription" : "MK Vibraphone",
+  "largeImage" : "vibraphone.png",
+  "image" : "vibraphone.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "vibraphone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "vibraphone"
+}

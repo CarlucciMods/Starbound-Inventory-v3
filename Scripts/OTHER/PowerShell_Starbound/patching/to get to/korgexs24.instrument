@@ -1,0 +1,18 @@
+{
+  "itemName" : "korg_exs24",
+  "inventoryIcon" : "korgicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Back to the 80's!",
+  "shortdescription" : "MK Korg EXS24",
+  "largeImage" : "korg.png",
+  "image" : "korg.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "korg.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "korg_exs24"
+}

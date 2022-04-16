@@ -1,0 +1,15 @@
+{
+  "itemName" : "callistanpowder",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "callistanpowder.png",
+  "description" : "A delicious... metallic... powder, useful for creating Callistan Dishes.",
+  "shortdescription" : "Mechanium Powder",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+  "bonebrew",
+  "ghiblicushion",
+  "callistanplush"
+	]
+}
